@@ -110,20 +110,23 @@ body {
     border: solid #a435f0 1px;
 }
 
-.sale-img img {
-    width: 100%;
+.sale-img {
     position: relative;
 }
 
+.sale-img img {
+    width: 100%;
+}
+
 .sale-img__box {
-    width: fit-content;
+    width: 35%;
     background-color: white;
     border: black solid 2px;
-    border-radius: 10px;
+    border-radius: 5px;
     position: absolute;
-    top: 40%;
+    top: 10%;
+    left: 10%;
     padding: 2%;
-    margin: 40px;
     animation-name: zoom;
     animation-duration: 2s;
     opacity: 0;
@@ -242,11 +245,4 @@ body {
     .navbar__s4 {
         display: block;
     }
-
-    .sale-img__box {
-       width: 200px;
-       top: 50px;
-       margin-left: 3px;
-    }
-
 }
