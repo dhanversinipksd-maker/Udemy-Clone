@@ -245,8 +245,27 @@ body {
     .navbar__s4 {
         display: block;
     }
-    .sale-img__box{
-        top: 2px;
+
+}
+
+
+@media screen and (max-width:600px) {
+    .sale-img__box {
+        width: 50%;
+
+        left: 5%;
+        top: 5%;
+        padding: 8px;
         
     }
+}
+
+.sale-img {
+    position: relative;
+}
+
+.sale-img img {
+    width: 100%;
+    height: auto;
+}
 }
