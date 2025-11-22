@@ -126,7 +126,7 @@ body {
     position: absolute;
     top: 10%;
     left: 10%;
-    padding: 2%;
+    padding: 1%;
     animation-name: zoom;
     animation-duration: 2s;
     opacity: 0;
@@ -244,5 +244,9 @@ body {
 
     .navbar__s4 {
         display: block;
+    }
+    .sale-img__box{
+        top: 2px;
+        
     }
 }
